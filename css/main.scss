@@ -1,0 +1,36 @@
+.risque-regular {
+    font-family: "Risque", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #1e1e2e, #2a2a40);
+}
+
+.container {
+    font-family: 'Risque', serif;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    #clock {
+        font-size: 5em;
+    }
+    #timezone {
+        color: rgb(145, 145, 145);
+        margin-right: -5em;
+    }
+    #date {
+        margin-right: -10em;
+    }
+    #timezone, #date {
+        font-size: 2em;
+    }
+}
