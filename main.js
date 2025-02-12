@@ -1,2 +1,3 @@
-const dayjs = require('dayjs')
-dayjs().format()
+const dayjs = require('dayjs');
+
+console.log(dayjs().day());
